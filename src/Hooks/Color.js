@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../css/header-effect.css'
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 function HeaderEffect() {
     const [scroll, Setscroll] = useState(false);
